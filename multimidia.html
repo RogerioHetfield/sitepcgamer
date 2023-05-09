@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pc Gamer</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="specs.css"/> 
+    <link rel="stylesheet" href="_css/multimidia.css">
+</head>
+<script src="_javascript/scripts.js"></script>
+<body>
+    <div id="interface">
+
+        <header id="cabecalho">
+        <hgroup>
+        <h1>PC Gamer</h1>
+        <h2>O Melhor dos PC's Gamers: Desempenho e Tecnologia de Última Geração</h2>
+        </hgroup>
+
+        <figure class="foto-legenda">
+        <img id="icone" src="./imagens/pc-gamer2.png" alt="">
+        </figure>
+<nav id="menu">
+    <h1>Menu Principal</h1>
+        <ul type="disc">
+            <li onmouseover="mudaFoto('./imagens/home.png')" onmouseout="mudaFoto('./imagens/multi.png')"><a href="index.html">Home</a></li>
+            <li onmouseover="mudaFoto('./imagens/especi.png')" onmouseout="mudaFoto('./imagens/multi.png')"><a href="specs.html" class="especif">Especificações</a></li>
+            <li onmouseover="mudaFoto('./imagens/camera.png')" onmouseout="mudaFoto('./imagens/multi.png')"><a href="fotos.html">Fotos</a></li>
+            <li onmouseover="mudaFoto('./imagens/multi.png')" onmouseout="mudaFoto('./imagens/multi.png')"><a href="multimidia.html">Multimídia</a></li>
+            <li onmouseover="mudaFoto('./imagens/faleconosco.png')" onmouseout="mudaFoto('./imagens/multi.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+        </ul> 
+</nav>
+        </header>
+
+<section class="corpo">
+<article id="noticia-principal">
+    <header id="cabecalho-artigo">
+<hgroup>
+<h3> Pc Gamer > Multimídia </h3>
+<h1> Sons e Vídeos</a> </h1>
+<h2> por Rogério Guimarães </h2>
+<h3 class="direita"> Atualizado em 09/Maio/2023 </h3>
+</hgroup>
+    </header>
+
+<div id="tv-radio">
+    <audio id="musica" controls="controls">
+        <source src="./_media/royalty.mp3" type="audio/mpeg">
+        <source src="./_media/royalty.m4a" type="audio/x-aac">
+        <source src="./_media/royalty.ogg" type="audio/ogg">
+        Desculpe, mas não foi possível carregar o áudio.
+    </audio>
+    <video id="filme" controls="controls">
+        <source src="./_media/video01.mp4" type="video/mp4">
+        <source src="./_media/video01.webm" type="video/webm">
+        <source src="./_media/video01.ogv" type="video/ogg">
+        Desculpe, mas não foi possível carregar o vídeo.
+    </video>
+
+</div>
+
+    
+<footer>
+        <p class="copy">Copyright &copy; 2023 - by Rogério Hetfield </br>
+        <a href="https://www.facebook.com/rogeriohetguimaraes" target="_blank">Facebook</a>  
+        <a href="https://www.instagram.com/rogeriohetfield/" target="_blank">Instagram</a></p>
+</footer>
+        
+</div>
+</body>
+</html>
